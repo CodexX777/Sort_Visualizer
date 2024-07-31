@@ -3,7 +3,7 @@ import { SortVisualizer } from "./pages/SortVisualizer";
 
 function App() {
   return (
-    <div>
+    <div className="h-screen">
       <SortVisualizer />
     </div>
   );

@@ -15,5 +15,6 @@ export const Timer = ({ isActive = false }) => {
     return () => clearInterval(interval);
   }, [isActive]);
 
+
   return <div className="text-white text-center">{time}s</div>;
 };
